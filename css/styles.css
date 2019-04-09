@@ -1,0 +1,152 @@
+/** Import normalize.css **/
+@import url("css/normalize.css");
+
+body {
+    font: 100%/1.25 Helvetica, Arial, sans-serif;
+    color: black;
+    width:100%;
+}
+/** Image responsiveness when changing the device used **/
+img {
+    width: 100%;
+    margin-top: -10%;
+}
+p  {
+    font-size: 1em;
+    margin-left: 2%;
+    color: black;
+    font-weight: bold;
+}
+ 
+#safeplace, #a_z {
+    font-size: 1em;
+    margin-left: 2%;
+    color: black;
+    font-weight: bold;
+}
+
+/** Import normalize.css **/
+@import url("css/normalize.css");
+
+
+/** A format as flex-direction, flex-basic, padding, margin, border, background, font-size, display...for input of sitesearch and buttonsearch **/
+input.sitesearch {
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #004a87;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    display: inline-block;
+    margin-left: 3%;
+    padding-left: 2%;
+    width: 350px;
+    height: 30px;
+    text-decoration:none;
+    border-radius:3px;
+        color: black;
+}
+
+/** A format as border, background-color, text-shadow, color...for button when the user moves to mouse over button **/
+button.buttonsearch {
+    background:none #004a87;
+    border-color: #EBE8DE;
+    text-shadow:none;
+    color: white;
+    width:150px;
+    height: 30px;
+    border-radius:3px;
+    font-size: 14px;
+}
+button.buttonsearch:hover {
+    background:none #76ba1b;
+    border-color: #EBE8DE;
+    text-shadow:none;
+    color: white;
+    width:150px;
+    height: 30px;
+    border-radius:3px;
+    font-size: 14px;
+}
+/**************** NEWS ***********************/
+
+div.col-sm-12.col-md-3.col-lg-3.news {
+    background-color: white ;
+    border: 1px solid #C2C2C2;
+    box-shadow: 1px -1px 2px -1px #999;
+    padding: 1% 1% 1% 1%;
+    margin-top: 1%;
+    border-top: 3px solid #666565;
+    border-radius:3px;
+}
+
+
+
+/**************** MAIN  ****************/
+/** Format as margin, max-width, padding, border, box-shadow...for all the class in main  **/
+/** Format as margin, width, border, color, background, text-shadow, box-shadow, line-height, font size, font family,...for all the class, id, h1, h4, h5.. in the third column **/
+/** H2 format  **/
+h2  {
+    font-family: oswald;
+    font-size: 1.5em;
+    color: #76ba1b;
+    text-align: left;
+
+}
+/** H3 format  **/
+h3  {
+    font-family: oswald;
+    font-size: 1.2em;
+    color: #000000;
+    text-align: left;
+    padding-left: 1.5%;
+}
+/** H4 format  **/
+h4  {
+    font-family: oswald;
+    font-size: 2.5em;
+    color: black;
+    text-align: left;
+    font-weight: bold;
+    text-shadow: 0 1px 0 #ccc, 
+    0 2px 0 #c9c9c9,
+    0 3px 0 #bbb,
+    0 4px 0 #b9b9b9,
+    0 5px 0 #aaa,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);
+    border-bottom: 1px dotted #666;
+    margin-left: 2%;
+    margin-top: 3%;
+    padding-top: 2%;
+}
+
+/** H4 format  **/
+h5  {
+    font-family: oswald;
+    font-size: 1em;
+    color: #000000;
+    text-align:center;
+    font-weight: bold;
+    background-color: #999;
+
+}
+/** H6 format  **/
+h6  {
+    margin-top: 1%;
+    font-family: oswald;
+    font-size: 1.5em;
+    color: #76ba1b;
+    text-align: left;
+    border-bottom: 1px dotted #333;
+}
+
+
+
+
